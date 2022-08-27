@@ -1,0 +1,6 @@
+I have included a screenshot of my elastic beanstalk application dashboard in the screenshots folder
+
+Here is the link to the endpoint for my running elastic beanstalk deployment : 
+http://udagram-image-filter-code-dev.us-east-1.elasticbeanstalk.com/filteredImage?image_url=https://assets.entrepreneur.com/content/3x2/2000/20161006174109-GettyImages-150471246.jpeg?auto=webp&quality=95&crop=16:9&width=675
+
+I have also incuded a postman collection file, should you wish to import and test quickly.
