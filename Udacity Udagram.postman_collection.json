@@ -1,0 +1,49 @@
+{
+	"info": {
+		"_postman_id": "dab14ec2-3091-4388-9d80-20ab19933f28",
+		"name": "Udacity Udagram",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16322338"
+	},
+	"item": [
+		{
+			"name": "Filter Image",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://udagram-image-filter-code-dev.us-east-1.elasticbeanstalk.com/filteredImage?image_url=https://assets.entrepreneur.com/content/3x2/2000/20161006174109-GettyImages-150471246.jpeg?auto=webp&quality=95&crop=16:9&width=675",
+					"protocol": "http",
+					"host": [
+						"udagram-image-filter-code-dev",
+						"us-east-1",
+						"elasticbeanstalk",
+						"com"
+					],
+					"path": [
+						"filteredImage"
+					],
+					"query": [
+						{
+							"key": "image_url",
+							"value": "https://assets.entrepreneur.com/content/3x2/2000/20161006174109-GettyImages-150471246.jpeg?auto=webp"
+						},
+						{
+							"key": "quality",
+							"value": "95"
+						},
+						{
+							"key": "crop",
+							"value": "16:9"
+						},
+						{
+							"key": "width",
+							"value": "675"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
